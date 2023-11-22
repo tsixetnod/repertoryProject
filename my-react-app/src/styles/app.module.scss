@@ -1,0 +1,19 @@
+:root {
+  font-family: 'Montserrat', sans-serif;
+
+  --color-primary: #1d1016;
+  --color-secundary: #4f2b38;
+  
+  --gray-4: #121214;
+  --gray-3: #212529;
+  --gray-2: #343b41;
+  --gray-1: #868e96;
+  --gray-0: #f8f9fa;
+}
+
+#root {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 2rem;
+    text-align: center;
+}
