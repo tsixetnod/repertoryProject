@@ -1,8 +1,33 @@
-.welcomeDiv {
+.apresentationSection {
     display: flex;
-    flex-direction: column;
+
+    width: 90%;
 
     justify-content: center;
     align-items: center;
-}
+    
+    gap: 1.5625rem;
 
+    .videoDiv {
+        display: flex;
+        width: 50%;
+
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: .625rem;
+
+        .video {
+            display: flex;
+
+            max-width: 100%;
+            max-height: 100%;
+            border: 2px solid rgb(0, 0, 0);
+            border-radius: .3125rem;
+
+            img {
+                border-radius: 5px;
+            }
+        }
+    }
+}

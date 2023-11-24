@@ -1,0 +1,50 @@
+footer {
+    height: 15vh;
+    display: flex;
+
+    background-color: var(--color-primary);
+
+    flex-direction: column;
+
+    justify-content: center;
+    
+    align-items: center;
+
+    padding: .3125rem;
+
+    hr {
+        width: 95%;
+        color: var(--color-secundary);
+    }
+
+    p {
+        font-size: 95%;
+        padding: .625rem;
+    }
+
+    a {
+
+        height: 100%;
+
+        padding: .3125rem;
+
+        img {
+            height: 75%;
+        }
+    }
+
+    .logos{
+        display: flex;
+        flex-direction: row;
+
+        padding-top: .625rem;
+
+        height: 40%;
+
+        align-items: center;
+
+        gap: .625rem;
+        
+        cursor: pointer;
+    }
+}

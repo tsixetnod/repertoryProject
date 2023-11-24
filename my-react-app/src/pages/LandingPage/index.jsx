@@ -1,12 +1,15 @@
-import { MainComponent } from "../../components/mainComponent/index.jsx"
-import { PrincipalComponent } from "../../components/principalComponent/index.jsx"
+import { FooterComponent } from "../../components/footerComponent"
+import { HeaderComponent } from "../../components/headerComponent"
+import { MainComponent } from "../../components/mainComponent"
+
 
 export const LandingPage = () => {
     return (
       <>
-        <MainComponent>
-        <PrincipalComponent/>
-        </MainComponent>
+        <HeaderComponent>
+          <MainComponent/>
+        </HeaderComponent>
+        <FooterComponent/>
       </>
     )
   }

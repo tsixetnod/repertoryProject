@@ -1,15 +1,18 @@
 import styles from './style.module.scss'
+import punpun from '../../assets/punpun.webp'
 
-export const MainComponent = ({ children }) => {
-
+export const MainComponent = () => {
     return (
-      <main>
-        <div className={`${styles.welcomeDiv} mainDiv`}>
-            <h1>Seja Bem vindo</h1>
-            <h3>(À um repertório de um dev em construção)</h3>
-        </div>
-        { children }
-      </main>
+        <section className={styles.apresentationSection}>
+            <div className={styles.videoDiv}>
+                <h3>Uma leve apresentação</h3>
+                <div className={styles.video}>
+                    <img src={punpun} alt="vídeo" />
+                </div>
+            </div>
+            <div>
+                Me chamo Matheus de Oliveira, sou um estudante de programação web Full-Stack, atualmente me aprofundando em backend, tenho 19 anos e sou do Espírito Santo, ao lado deixei um pequeno vídeo me apresentando melhor.
+            </div>
+        </section>
     )
-  }
-  
+}
