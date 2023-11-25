@@ -1,7 +1,7 @@
 import styles from './style.module.scss'
-import github from '../../assets/github-mark.png'
-import linkedin from '../../assets/linkedin.png'
-import vercel from '../../assets/vercel.png'
+import github from '../../assets/github.svg'
+import linkedin from '../../assets/linkedin.svg'
+import vercel from '../../assets/vercel.svg'
 import { Link } from 'react-router-dom'
 
 export const FooterComponent = () => {
@@ -15,7 +15,7 @@ export const FooterComponent = () => {
                 <Link to={`https://www.linkedin.com/in/matheus-de-oliveira-3a6a06113/`}>
                     <img src={linkedin} alt="linkedin" />
                 </Link>
-                <Link to={`https://vercel.com/tsixetnod`}>
+                <Link to={`https://vercel.com/tsixetnod2`}>
                     <img src={vercel} alt="vercel" />
                 </Link>
             </section>
